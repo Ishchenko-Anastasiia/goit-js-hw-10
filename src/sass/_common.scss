@@ -25,12 +25,15 @@
     padding: 10px;
     font-size: 20px;
     margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 600;
 }
-.cat-info{
+.info-style{
+    width: 80%;
     display: flex;
     align-items: center;
 }
 .info_cat{
-    width: 50%;
-    margin-left: auto;
+    width: 70%;
+    margin-left: 30px;
 }
