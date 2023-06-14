@@ -1,5 +1,5 @@
 export function fetchBreeds() {
-  const BASE_URL = 'https://api.thecatapi.com/v1/breeds';
+  const BASE_URL = 'https://api.thecatapi.com/v1';
   const API_KEY =
     'live_eY7uZA0V6lz1nEBQxtdbXb7Vqlcd0HRi86atSBXRKFY1Ee91kedefMWMinETDUVA';
 
@@ -13,7 +13,7 @@ export function fetchBreeds() {
 }
 
 export function fetchCatByBreed(breedId) {
-  const BASE_URL = 'https://api.thecatapi.com/v1/breeds';
+  const BASE_URL = 'https://api.thecatapi.com/v1';
   const API_KEY =
     'live_eY7uZA0V6lz1nEBQxtdbXb7Vqlcd0HRi86atSBXRKFY1Ee91kedefMWMinETDUVA';
 
