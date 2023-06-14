@@ -41,7 +41,7 @@ function onSelect(element) {
   fetchCatByBreed(choosenCat.id)
     .then(value => { 
       loaderEl.style.display = 'none';
-      const img = ` <img  src="${value[0].url}" alt="" style="width: 400px">`;
+      const img = ` <img  src="${value[0].url}" alt="" style="width: 600px">`;
       infoEl.insertAdjacentHTML('beforeend', img);
       renderInfo(choosenCat);
     })
@@ -59,10 +59,10 @@ function onSelect(element) {
 function renderInfo(obj) {
   const { name, description, temperament } = obj;
   const markup = `
-    <div class = "info_cat">   
+    <div>   
      <h2 class="text">${name}</h2>
      <p>${description}</p>
      <p><b>Temperament:</b> ${temperament}</p>
-    </div> `;
+    </div>`;
   infoEl.insertAdjacentHTML('beforeend', markup);
 }
