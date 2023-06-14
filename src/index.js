@@ -59,7 +59,7 @@ function onSelect(element) {
 function renderInfo(obj) {
   const { name, description, temperament } = obj;
   const markup = `
-    <div>   
+    <div class = "info_cat">   
      <h2 class="text">${name}</h2>
      <p>${description}</p>
      <p><b>Temperament:</b> ${temperament}</p>

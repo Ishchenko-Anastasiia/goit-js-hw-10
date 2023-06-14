@@ -1,6 +1,6 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 body{
-    max-width: 90%;
+    width: 90%;
 }
 
 .loader {
@@ -32,5 +32,9 @@ body{
 }
 .cat-info{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+.info_cat{
+    width: 50%;
+    margin-left: auto;
 }
